@@ -1,0 +1,45 @@
+{
+    "name": "webexapp",
+    "description": "Web Application Framework Using Express JS",
+    "version": "0.0.1",
+    "license": "MIT",
+    "author": "Partha R <parthasarathi.ramanujam@gmail.com>",
+    "main": "index.js",
+    "keywords": [
+        "node",
+        "express",
+        "web",
+        "app",
+        "webapp",
+        "framework"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/partharamanujam/webexapp"
+    },
+    "dependencies": {
+        "express": "v4.6.x",
+        "winston": "v0.7.x",
+        "express-winston": "v0.2.x",
+        "winston-express": "v0.1.x",
+        "compression": "v1.0.x",
+        "cookie-parser": "v1.3.x",
+        "express-session": "v1.7.x",
+        "connect-redis": "v2.0.x",
+        "body-parser": "v1.5.x",
+        "raw-body": "v1.3.x",
+        "streamifier": "v0.1.x",
+        "helmet": "v0.4.x",
+        "toobusy-js": "v0.3.x",
+        "redis": "v0.11.x",
+        "ms": "v0.6.x",
+        "ratelimiter": "v1.0.x"
+    },
+    "engines": {
+        "node": "v0.10.x",
+        "npm": "v1.4.x"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    }
+}
