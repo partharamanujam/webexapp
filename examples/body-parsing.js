@@ -7,7 +7,7 @@ var webexapp = require('../lib'),
 var server, app;
 
 webexapp.setWebserverConfig({workers: 1}); // set number of workers to 1
-server = new WebServer('simple-server');
+server = new WebServer('body-parsing');
 
 app = express();
 app.post('/json', function (req, res) {

@@ -7,7 +7,7 @@ var webexapp = require('../lib'),
 var server, app1, app2;
 
 webexapp.setWebserverConfig({workers: 1}); // set number of workers to 1
-server = new WebServer('simple-server');
+server = new WebServer('multi-apps');
 
 app1 = express();
 app1.use('/whoami', function (req, res) {
