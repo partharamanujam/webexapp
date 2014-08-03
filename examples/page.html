@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <h1>Browser Logger</h1>
+
+    <p>This page demostrates logging from the browser</p>
+    
+    <p>To try out logging interactively, open the Javascript console and type the logging statements. For e.g., </p>
+    
+    <code>winston.info("this is info from browser");</code>
+
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="/winston/client.js"></script>
+    <script>
+        $(document).ready(function () {
+            winston.info("page loading complete...");
+        });
+    </script>
+
+</body>
+
+</html>
