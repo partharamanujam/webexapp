@@ -60,7 +60,7 @@ $ npm install webexapp
 
   See examples folder for usage of different features.
 
-### Logger-instance webexapp.loggerFactory.getLogger([name])
+### Logger-instance: webexapp.loggerFactory.getLogger([name])
 
   Create a logger instance based on winston; 'name' defaults to the file-name where
   the instance is created. Four different levels are defined as:
@@ -70,7 +70,7 @@ $ npm install webexapp
   * warn
   * error
 
-### Logger-config webexapp.setLoggerConfig(options)
+### Logger-config: webexapp.setLoggerConfig(options)
 
 ```js
 webexapp.setRedisConfig({
@@ -97,7 +97,7 @@ webexapp.setRedisConfig({
 });
 ```
 
-### Redis-config webexapp.setRedisConfig(options)
+### Redis-config: webexapp.setRedisConfig(options)
 
 ```js
 webexapp.setRedisConfig({
@@ -107,7 +107,7 @@ webexapp.setRedisConfig({
 });
 ```
 
-### Sessions-config webexapp.setCookieSessionConfig(options)
+### Sessions-config: webexapp.setCookieSessionConfig(options)
 
 ```js
 webexapp.setCookieSessionConfig({
@@ -125,7 +125,7 @@ webexapp.setCookieSessionConfig({
 });
 ```
 
-### Security-config webexapp.setSecurityConfig(options)
+### Security-config: webexapp.setSecurityConfig(options)
 
 ```js
 webexapp.setSecurityConfig({
@@ -151,7 +151,7 @@ webexapp.setSecurityConfig({
 });
 ```
 
-### Limits-config webexapp.setLimitsConfig(options)
+### Limits-config: webexapp.setLimitsConfig(options)
 
 ```js
 webexapp.setLimitsConfig({
@@ -163,7 +163,7 @@ webexapp.setLimitsConfig({
 });
 ```
 
-### BodyParsing-config webexapp.setBodyParserConfig(options)
+### BodyParsing-config: webexapp.setBodyParserConfig(options)
 
   The parsed body is available as req.body in case of JSON & URL-Encoded bodies.
   For other types, the body is available as a stream in req.rawBodyStream which
@@ -177,7 +177,7 @@ webexapp.setBodyParserConfig({
 });
 ```
 
-### WebServer-config webexapp.setWebserverConfig(options)
+### WebServer-config: webexapp.setWebserverConfig(options)
 
 ```js
 webexapp.({
@@ -191,7 +191,7 @@ webexapp.({
 });
 ```
 
-### WebServer-instance webexapp.WebServer([name])
+### WebServer-instance: webexapp.WebServer([name])
 
 ```js
 var webexapp = require('../lib'),
@@ -206,7 +206,7 @@ server.use('/hello', function (req, res) {
 server.run();
 ```
 
-### Modules
+### Exported Modules
 
   Some useful modules are export'ed from the main-module.
 
