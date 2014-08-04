@@ -97,6 +97,18 @@ webexapp.setRedisConfig({
 });
 ```
 
+### Browser-logging
+
+  Logging is also enabled from the browser. You will need to include JQuery and
+  provided winston-client. A global winston object is made available for logginng. 
+
+```html
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="/winston/client.js"></script>
+```
+
+  For e.g., you can use winston.debug("some message") to log messages.
+
 ### Redis-config: webexapp.setRedisConfig(options)
 
 ```js
